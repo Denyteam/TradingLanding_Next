@@ -23,6 +23,6 @@ export default function BlogPreview({
   return data ? (
     <BlogPost data={data} />
   ) : (
-    <div className="bg-red-100">Post not found</div>
+    <div className="bg-red-100">BlogPost not found</div>
   );
 }

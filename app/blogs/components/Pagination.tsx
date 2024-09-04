@@ -51,7 +51,7 @@ function Pagination(props: Props) {
         }
       }}
     >
-      {buttonDisabled ? 'Loading more posts ...' : 'Back to Top'}
+      {buttonDisabled ? 'Loading ...' : 'Back to Top'}
       
     </button>
   );
