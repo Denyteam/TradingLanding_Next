@@ -66,7 +66,7 @@ async function Page({ params: { slug } }: Props) {
           <section className="w-[95%] tablet:w-[90%] desktop:w-[85%] mx-auto">
             <h3>
               <span className="blogRecommendations-header">
-                You might also like...
+                You might also like ...
               </span>
             </h3>
 
