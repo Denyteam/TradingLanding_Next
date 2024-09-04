@@ -10,7 +10,7 @@ async function getSearchData(param: string, page: number, pageSize: number) {
       publishDate,
       title,
         'currentSlug': slug.current,
-        tag {
+        tag { 
         tag-> {
           tag
         }
