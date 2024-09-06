@@ -1,5 +1,6 @@
 import React from "react";
 import Hero from "./components/Sections/Hero/Hero";
+import Layout from "./components/Sections/Chatbot/Layout";
 import Metrics from "./components/Sections/Metrics/Metrics";
 import Navbar from "./components/Navbar/Navbar";
 import WhyDensityPage from "./components/Sections/Whydensity/WhyDensityPage";
@@ -31,6 +32,7 @@ export default function Home() {
         url="https://url.density.exchange/mWebRedirect"
       />
       <Hero />
+      <Layout />
       <Metrics />
       <WhyDensityPage />
       <Charges />
